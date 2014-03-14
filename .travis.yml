@@ -1,5 +1,5 @@
 bundler_args: --without development
-language: ruby
+stack: docker
 rvm:
   - 1.9.3
 script: bundle exec rspec
