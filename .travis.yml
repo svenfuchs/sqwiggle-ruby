@@ -11,3 +11,9 @@ notifications:
 #       - secure: GCzKzx6svwXQvRekfXojzgJsE7hJz4mb8PMy71d8AWyOYgEGAyKH9Ysb5pXQuMXlWo7esCegzci398FY9+zNzYl8RZxX4AR/uND2scaO8alp09/i6QCz/JdU8JZC5H9tSWPU6xCDAdbPb3XdEYYVZaj23Ckn7SqtYg/KngX5zs8=
 #     on_success: always
 #     on_failure: always
+addons:
+  hosts:
+    - travis.dev
+    - joshkalderimis.com
+  firefox: "17.0"
+  postgresql: "9.2"
