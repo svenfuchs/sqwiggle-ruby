@@ -12,8 +12,8 @@ notifications:
 #     on_success: always
 #     on_failure: always
 addons:
-  hosts:
-    - travis.dev
-    - joshkalderimis.com
+  # hosts:
+  #   - travis.dev
+  #   - joshkalderimis.com
   firefox: "17.0"
   postgresql: "9.2"
