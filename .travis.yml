@@ -11,3 +11,6 @@ addons:
 services:
   - redis
   - elasticsearch
+  - riak
+  - rabbitmq
+  - memcached
